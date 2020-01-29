@@ -1,0 +1,16 @@
+body {
+
+    font-family: 'arial';
+    color: cornsilk;
+    background-color: black;
+}
+
+button {
+    background-color: cyan;
+    padding: 5px 5px;
+    
+}
+
+#results {
+    font-family: 'georgia';
+}
