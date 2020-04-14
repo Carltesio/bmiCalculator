@@ -1,16 +1,7 @@
-body {
-
-    font-family: 'arial';
-    color: cornsilk;
-    background-color: black;
+#picture{  
+    position: -ms-page;
 }
 
-button {
-    background-color: cyan;
-    padding: 5px 5px;
-    
-}
-
-#results {
-    font-family: 'georgia';
+.body{
+    background-color: brown;
 }
