@@ -26,40 +26,22 @@ Extreme Obesity Class 3	>40
 
 ## Installation
 
-Install the rspec Gem to run the tests with rspec:
+Clone the repo and use yarn package manger to install the dependancies.
 in your terminal run:
 ```bash
- gem "rspec"
+yarn install
 ```
-then run the bundle command:
-```bash
- bundle
-```
+when all dependancies are installed run: 
 
+```bash
+yarn start
+```
+then visit http://localhost:3001 in your browser.
 
 ## Usage
 
-Try out your program again in irb. Remember that you have to load or require the source file. 
-Now any number should work. That’s why we wrote our tests - so that we could be confident it would work under any scenario.
+In the webpage you will find two input fields, weight and height; insert you values and press the button to see your personal BMI result.
 
-In your IRB console run the following examples to see it make it work:
-
-```bash
-$ irb
-2.2.0 :001 > load './lib/fizz_buzz.rb'
- => true 
-2.2.0 :002 > fizz_buzz(23)
- => 23 
-2.2.0 :003 > fizz_buzz(3)
- => "fizz" 
-2.2.0 :004 > fizz_buzz(6)
- => "fizz" 
-2.2.0 :005 > fizz_buzz(10)
- => "buzz" 
-2.2.0 :006 > fizz_buzz(45)
- => "fizz buzz" 
-2.2.0 :007 >
-```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
